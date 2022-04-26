@@ -6,7 +6,7 @@ import logo from "./logo.png";
 function App() {
   return (
     <div className="App">
-      <img src={logo} className="logo" alt="netflix logo" />
+      <img src={logo} className="logo" alt="netflix-logo" />
       {movies.map((movie, index) => {
         // console.log(movies);
         return (
