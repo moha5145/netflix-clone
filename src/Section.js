@@ -2,11 +2,10 @@ const Section = ({ categorys }) => {
   return (
     <div>
       <div className="category">{categorys.category}</div>
-      {/* <Images images={images} /> */}
+
       <div className="images">
         {categorys.images.map((image) => {
-          //   console.log(categorys.images);
-          return <img src={image} key={image} />;
+          return <img src={image} key={image} alt="image" />;
         })}
       </div>
     </div>
