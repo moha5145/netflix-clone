@@ -7,7 +7,7 @@ const Section = ({ categorys }) => {
         {categorys.images.map((film, index) => {
           return (
             <>
-              <img src={film} key={index} alt="film-image" />;
+              <img src={film} key={film} alt="" />;
             </>
           );
         })}
