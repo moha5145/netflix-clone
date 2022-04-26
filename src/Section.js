@@ -1,4 +1,3 @@
-import Images from "./Images";
 const Section = ({ categorys }) => {
   return (
     <div>
